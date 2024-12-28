@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-size: bold;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: rgb(31, 31, 119);
+}
+
+.input {
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 1px 1px lightgray;
+  min-width: 320px;
+}

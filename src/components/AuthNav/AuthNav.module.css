@@ -1,0 +1,21 @@
+.link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.link:hover {
+  color: #7eb8f7;
+}
+
+.active {
+  font-weight: bold;
+  color: #7eb8f7;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
